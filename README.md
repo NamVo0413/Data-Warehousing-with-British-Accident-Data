@@ -1,4 +1,4 @@
-# TTKD-03 Project Repository
+# Data Warehousing Project
 
 ## Project Overview
 This repository contains the project files for  "Information Systems for Business Intelligence". The project focuses on ETL processes and data visualization related to UK Car Accidents data.
