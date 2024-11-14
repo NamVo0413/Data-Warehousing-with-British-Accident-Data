@@ -1,0 +1,480 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e196492d-eca3-4e8f-8118-acd9a2ecc651" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BI TH DDS</ID>
+  <Name>BI TH DDS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3063" scrolltop="-6477" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23178" y="13780" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Accidents" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4106" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00000a100000da120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Accidents" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Casualties" left="10464" top="5560" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3768" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80e00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Casualties" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="5424" top="5476" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Geography" left="12236" top="113" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Geography" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Vehicles" left="6922" top="-4516" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4403" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000331100009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Vehicles" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Accidents_Casualties" left="7126" top="0" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="4106" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00000a1000003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Fact_Accidents_Casualties" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3826" top="293" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3600" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Accidents_Casualties-Dim_Accidents]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="17" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4126" y="763" />
+                    <point x="5626" y="763" />
+                    <point x="5626" y="593" />
+                    <point x="7126" y="593" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10299" top="3087" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="830" height="2973" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Accidents_Casualties-Dim_Casualties]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10698" y="5560" />
+                    <point x="10698" y="4220" />
+                    <point x="10829" y="4220" />
+                    <point x="10829" y="3387" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7074" top="-3068" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="2405" height="3368" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Accidents_Casualties-Dim_Vehicles]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7473" y="-2569" />
+                    <point x="7473" y="-1285" />
+                    <point x="9179" y="-1285" />
+                    <point x="9179" y="0" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10932" top="-53" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="1604" height="946" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Accidents_Casualties-Dim_Geography]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="10" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12236" y="346" />
+                    <point x="11734" y="346" />
+                    <point x="11734" y="593" />
+                    <point x="11232" y="593" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7075" top="3087" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2889" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Accidents_Casualties-Dim_Date]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7474" y="5476" />
+                    <point x="7474" y="3881" />
+                    <point x="7529" y="3881" />
+                    <point x="7529" y="3387" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-3063</DiagramViewPortLeft>
+            <DiagramViewPortTop>-6477</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BI TH DDS</DataSourceID>
+  <Schema>
+    <xs:schema id="BI_x0020_TH_x0020_DDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BI_x0020_TH_x0020_DDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="2c8ef682-4826-4274-af88-b9081360f170">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Accidents" msprop:design-time-name="94bafde9-6041-42dd-8d25-64c1d168ea75" msprop:FriendlyName="Dim_Accidents" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Accidents" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="AccidentId" msprop:design-time-name="8785b173-2fe7-4c67-9daa-172f13235212" msprop:DbColumnName="AccidentId" msprop:FriendlyName="AccidentId" type="xs:int" />
+                  <xs:element name="LSOA" msprop:design-time-name="b3e497aa-eb04-49e3-b594-c63a4d2476da" msprop:DbColumnName="LSOA" msprop:FriendlyName="LSOA" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Time" msprop:design-time-name="f3fd1554-b0e0-4124-900e-a088f4e8c280" msprop:DbColumnName="Time" msprop:FriendlyName="Time" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Number_of_Vehicles" msprop:design-time-name="d59374d4-781b-4ca4-a997-b652020f410f" msprop:DbColumnName="Number_of_Vehicles" msprop:FriendlyName="Number_of_Vehicles" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Number_of_Casualties" msprop:design-time-name="3d5af9c2-7122-4f95-8f08-33dc46701d91" msprop:DbColumnName="Number_of_Casualties" msprop:FriendlyName="Number_of_Casualties" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccidentSeverity" msprop:design-time-name="20f2cd27-9468-4d80-a4e1-b42718e54755" msprop:DbColumnName="AccidentSeverity" msprop:FriendlyName="AccidentSeverity" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LocalAuthorityDicstrict" msprop:design-time-name="d13e1c2b-1514-4363-9164-854f1b2b7625" msprop:DbColumnName="LocalAuthorityDicstrict" msprop:FriendlyName="LocalAuthorityDicstrict" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="UrbanOfRuralArea" msprop:design-time-name="45a69777-8562-42f3-8557-4b2c24d0c266" msprop:DbColumnName="UrbanOfRuralArea" msprop:FriendlyName="UrbanOfRuralArea" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RoadType" msprop:design-time-name="a68acac6-3b2b-402b-8551-efa29c22f0cf" msprop:DbColumnName="RoadType" msprop:FriendlyName="RoadType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BuiltUpRoad" msprop:design-time-name="617d9df7-7974-42e1-a351-b0659f121a09" msprop:DbColumnName="BuiltUpRoad" msprop:FriendlyName="BuiltUpRoad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Time_Band" msprop:design-time-name="21deb8dd-af04-4abb-9c0a-ae684a05e85d" msprop:DbColumnName="Time_Band" msprop:FriendlyName="Time_Band" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Casualties" msprop:design-time-name="6f6a54cb-09ea-4cb7-9849-cd1e29b93c10" msprop:FriendlyName="Dim_Casualties" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Casualties" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CasualtyId" msprop:design-time-name="a46bab17-ee1c-48a7-92f1-ae483b411d3c" msprop:DbColumnName="CasualtyId" msprop:FriendlyName="CasualtyId" type="xs:int" />
+                  <xs:element name="AgeOfCasualty" msprop:design-time-name="f087c2e1-9fc8-4686-82e6-dfa0c48c2ae1" msprop:DbColumnName="AgeOfCasualty" msprop:FriendlyName="AgeOfCasualty" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AgeBandName" msprop:design-time-name="379f03c9-85ca-4c5e-aae4-cf1adf104408" msprop:DbColumnName="AgeBandName" msprop:FriendlyName="AgeBandName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SexOfCasualty" msprop:design-time-name="8eacfeef-130b-4d13-80bc-cd3508241652" msprop:DbColumnName="SexOfCasualty" msprop:FriendlyName="SexOfCasualty" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CasualtySeverity" msprop:design-time-name="431597d2-4067-45ab-84aa-d1deb3eac99a" msprop:DbColumnName="CasualtySeverity" msprop:FriendlyName="CasualtySeverity" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AgeBandOfCasualty" msprop:design-time-name="cc736d08-66f8-4bf4-807f-d1a51ae48a75" msprop:DbColumnName="AgeBandOfCasualty" msprop:FriendlyName="AgeBandOfCasualty" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CasualtyType" msprop:design-time-name="f8e43484-af4c-4fbb-ad09-fa884f9f6529" msprop:DbColumnName="CasualtyType" msprop:FriendlyName="CasualtyType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Date" msprop:design-time-name="bab91f42-5335-497d-8d3b-c35464bdc8c0" msprop:FriendlyName="Dim_Date" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Date" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="69d4477f-95f0-4281-a643-78d319386eb1" msprop:DbColumnName="DateKey" msprop:FriendlyName="DateKey" type="xs:int" />
+                  <xs:element name="FullDate" msprop:design-time-name="a71dc5d3-4a8a-4726-96f5-37e63c7939e0" msprop:DbColumnName="FullDate" msprop:FriendlyName="FullDate" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quater" msprop:design-time-name="e9e847ae-c2b3-4c0a-b6ed-2e25b3d5f32f" msprop:DbColumnName="Quater" msprop:FriendlyName="Quater" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day" msprop:design-time-name="4b7d6b44-94d4-40d9-a99f-bce75505935a" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:design-time-name="0c060b29-0f23-45cf-b526-de564eb474cb" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" minOccurs="0" />
+                  <xs:element name="Year" msprop:design-time-name="861722ed-34e5-435c-a210-cdbb449ed063" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Geography" msprop:design-time-name="80b7fed4-30f2-4789-9882-fc2c49971109" msprop:FriendlyName="Dim_Geography" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Geography" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GeographyId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="04296b20-01d9-4e4e-9e70-2416637166d4" msprop:DbColumnName="GeographyId" msprop:FriendlyName="GeographyId" type="xs:int" />
+                  <xs:element name="city" msprop:design-time-name="f5d5c614-154a-4ba2-abc4-05b30d9eda10" msprop:DbColumnName="city" msprop:FriendlyName="city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="county" msprop:design-time-name="cc5f7dc9-cf1b-43e5-a814-01753077b8d3" msprop:DbColumnName="county" msprop:FriendlyName="county" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country" msprop:design-time-name="a82fc226-dca8-4add-b608-c1d23e1fb940" msprop:DbColumnName="country" msprop:FriendlyName="country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="region" msprop:design-time-name="42e01b23-1795-416b-8f27-80a17e98c190" msprop:DbColumnName="region" msprop:FriendlyName="region" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Vehicles" msprop:design-time-name="606e5bf1-7cb9-42e0-919c-d7cc6f674c60" msprop:FriendlyName="Dim_Vehicles" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Vehicles" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="VehicleId" msprop:design-time-name="464ac775-03ba-4b52-bf27-620918008380" msprop:DbColumnName="VehicleId" msprop:FriendlyName="VehicleId" type="xs:int" />
+                  <xs:element name="VehicleType" msprop:design-time-name="5808c2b6-5635-4067-b373-a7df87b8978e" msprop:DbColumnName="VehicleType" msprop:FriendlyName="VehicleType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="JourneyPurposeOfDriver" msprop:design-time-name="61f398a1-cb4c-4074-b365-13b6268edfc2" msprop:DbColumnName="JourneyPurposeOfDriver" msprop:FriendlyName="JourneyPurposeOfDriver" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_Accidents_Casualties" msprop:design-time-name="853d2e1a-070f-4926-8f91-be8fb938181d" msprop:FriendlyName="Fact_Accidents_Casualties" msprop:DbSchemaName="dbo" msprop:DbTableName="Fact_Accidents_Casualties" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="AccidentId" msprop:design-time-name="34ff0d7f-dd1d-4c46-b1e0-e81080297db7" msprop:DbColumnName="AccidentId" msprop:FriendlyName="AccidentId" type="xs:int" minOccurs="0" />
+                  <xs:element name="VehicleId" msprop:design-time-name="4feb2671-9241-4af9-b5fc-709aaddf79ff" msprop:DbColumnName="VehicleId" msprop:FriendlyName="VehicleId" type="xs:int" minOccurs="0" />
+                  <xs:element name="CasualtyId" msprop:design-time-name="8bfd5d8e-9c4a-4f65-bf9d-69215ff7beac" msprop:DbColumnName="CasualtyId" msprop:FriendlyName="CasualtyId" type="xs:int" minOccurs="0" />
+                  <xs:element name="DateKey" msprop:design-time-name="3bd8d9b6-4ce2-4212-b613-28b24b82fa20" msprop:DbColumnName="DateKey" msprop:FriendlyName="DateKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="GeographyId" msprop:design-time-name="cb892e63-ba5a-475a-aefe-d61e3b954f71" msprop:DbColumnName="GeographyId" msprop:FriendlyName="GeographyId" type="xs:int" minOccurs="0" />
+                  <xs:element name="Number_of_Casualties" msprop:design-time-name="4b2a088a-bf4a-4895-89bf-36b10b8b82f6" msprop:DbColumnName="Number_of_Casualties" msprop:FriendlyName="Number_of_Casualties" type="xs:int" minOccurs="0" />
+                  <xs:element name="Number_of_Vehicle" msprop:design-time-name="2821572d-a986-4b10-b83f-3c03b7ed1854" msprop:DbColumnName="Number_of_Vehicle" msprop:FriendlyName="Number_of_Vehicle" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Accidents" />
+          <xs:field xpath="AccidentId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Casualties_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Casualties" />
+          <xs:field xpath="CasualtyId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Date_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Date" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Geography_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Geography" />
+          <xs:field xpath="GeographyId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Vehicles_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Vehicles" />
+          <xs:field xpath="VehicleId" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Fact_Accidents_Casualties-Dim_Accidents" msdata:parent="dbo_Dim_Accidents" msdata:child="dbo_Fact_Accidents_Casualties" msdata:parentkey="AccidentId" msdata:childkey="AccidentId" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Fact_Accidents_Casualties-Dim_Casualties" msdata:parent="dbo_Dim_Casualties" msdata:child="dbo_Fact_Accidents_Casualties" msdata:parentkey="CasualtyId" msdata:childkey="CasualtyId" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Fact_Accidents_Casualties-Dim_Vehicles" msdata:parent="dbo_Dim_Vehicles" msdata:child="dbo_Fact_Accidents_Casualties" msdata:parentkey="VehicleId" msdata:childkey="VehicleId" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Fact_Accidents_Casualties-Dim_Geography" msdata:parent="dbo_Dim_Geography" msdata:child="dbo_Fact_Accidents_Casualties" msdata:parentkey="GeographyId" msdata:childkey="GeographyId" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Fact_Accidents_Casualties-Dim_Date" msdata:parent="dbo_Dim_Date" msdata:child="dbo_Fact_Accidents_Casualties" msdata:parentkey="DateKey" msdata:childkey="DateKey" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <BI_x0020_TH_x0020_DDS xmlns="" />
+  </Schema>
+</DataSourceView>

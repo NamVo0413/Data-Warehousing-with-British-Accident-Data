@@ -1,0 +1,75 @@
+﻿--Câu 1:
+select nonempty([Dim Casualties].[Casualty Severity].members*[Measures].[Number Of Casualties]) on 0, 
+{[Dim Accidents].[Local Authority Dicstrict].members} on 1
+from [BI TH DDS];
+
+
+--Câu 2:
+Select {nonempty([Dim Date].[Hierarchy].[Quater].members)*nonempty([Dim Date].[Year].children)
+*[Measures].[Number Of Casualties]} on 0,
+{[Dim Accidents].[Local Authority Dicstrict].members} on 1
+from [BI TH DDS];
+
+--Câu 3:
+--Theo Female:
+with member measures.Fatal as[Dim Casualties].[Casualty Severity].&[Fatal]
+Select {nonempty([Dim Date].[Year].Children)*[Measures].[Number Of Casualties]} on 0,
+{nonempty([Dim Casualties].[Casualty Type].members)*
+nonempty([Dim Casualties].[Age Band Of Casualty].children)} on 1
+from [BI TH DDS]
+where ({[Dim Casualties].[Sex Of Casualty].&[Female]});
+--Theo Male:
+with member measures.Fatal as[Dim Casualties].[Casualty Severity].&[Fatal]
+Select {nonempty([Dim Date].[Year].Children)*[Measures].[Number Of Casualties]} on 0,
+{nonempty([Dim Casualties].[Casualty Type].members)*
+nonempty([Dim Casualties].[Age Band Of Casualty].children)} on 1
+from [BI TH DDS]
+where [Dim Casualties].[Sex Of Casualty].&[Male];
+
+
+--Câu 4:
+Select {nonempty([Dim Date].[Year].Children)*[Measures].[Fact Accidents Casualties Count]} on 0,
+{nonempty([Dim Accidents].[Accident Severity].members)*
+nonempty([Dim Accidents].[Time Band].members)} on 1
+from [BI TH DDS];
+
+--Câu 5:
+Select {nonempty([Dim Date].[Year].children)
+*[Measures].[Fact Accidents Casualties Count]} on 0,
+{nonempty([Dim Accidents].[Urban Of Rural Area].children)*
+nonempty([Dim Accidents].[Road Type].children)
+*[Dim Accidents].[Accident Severity].members} on 1
+from [BI TH DDS];
+
+--Câu 6:
+Select {nonempty([Dim Date].[Year].Children)*[Measures].[Number Of Casualties]} on 0,
+{nonempty([Dim Casualties].[Casualty Type].members)*
+nonempty([Dim Casualties].[Age Band Name].members)} on 1
+from [BI TH DDS]
+where [Dim Casualties].[Casualty Severity].members;
+
+
+--Câu 7:
+with member[Measures].[Percentage]
+as DIVIDE
+([Measures].[Number Of Vehicle],
+([Measures].[Number Of Vehicle],[Dim Vehicles].[Vehicle Type].currentmember.parent))
+,format_string = "percent"
+Select {[Measures].[Percentage],[Measures].[Number Of Vehicle]} on 0,
+{[Dim Vehicles].[Journey Purpose Of Driver].members*[Dim Vehicles].[Vehicle Type].members} on 1
+from [BI TH DDS];
+
+-- Thống kê số liệu để kiểm tra tương quan
+Select [Measures].[Number Of Vehicle] on 0,
+{[Dim Vehicles].[Vehicle Type].members} on 1
+from [BI TH DDS];
+
+-- Câu 9:
+Select {[Dim Date].[Hierarchy].[Year].members
+*[Measures].[Fact Accidents Casualties Count]
+*[Dim Accidents].[Accident Severity].members
+} on 0,
+{[Dim Accidents].[Built Up Road].members*
+[Dim Vehicles].[Vehicle Type].members
+} on 1
+from [BI TH DDS];
